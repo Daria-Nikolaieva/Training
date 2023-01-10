@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header {
+    display: inline-flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 1290px;
+    text-align: center;
+}
+
+.header-linklist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-linklist li {
+    margin-left: 45px;
+    position: relative;
+}
+/*Gilroy,sans-serif;
+font-weight: 400;*/
+
+.header-linklist .menu:after {  
+    content: ' ';  
+    background: url(../img/icon.png);  
+    background-size:12px 12px;
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: absolute;
+    display: inline-block;
+}
