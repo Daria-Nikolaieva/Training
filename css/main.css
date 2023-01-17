@@ -75,7 +75,7 @@ font-weight: 400;*/
     margin-top: 15px; 
     width: 95px;
     padding: 5px 15px;
-    background-color: tomato;
+    /* background-color: tomato; */
     display: none;
     box-shadow: 0 0 10px rgb(0 0 59 / 5%)
 }
